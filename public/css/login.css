@@ -1,0 +1,35 @@
+.gradient-1 {
+    /* fallback for old browsers */
+    background: #fccb90;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    background: linear-gradient(230deg, #ff5f23, #ffb51f, #ff59c6);
+
+    background-size: 650% 650%;
+    -webkit-animation: gradientAnimation 3s ease infinite;
+    -moz-animation: gradientAnimation 3s ease infinite;
+    animation: gradientAnimation 3s ease infinite;
+}
+
+@-webkit-keyframes gradientAnimation {
+    0%{background-position:0% 30%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 30%}
+}
+@-moz-keyframes gradientAnimation {
+    0%{background-position:0% 30%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 30%}
+}
+@keyframes gradientAnimation {
+    0%{background-position:0% 30%}
+    50%{background-position:100% 70%}
+    100%{background-position:0% 30%}
+}
+button.gradient-1:hover {
+    -webkit-animation: none;
+    -moz-animation: none;
+    animation: none;
+}

@@ -1,0 +1,50 @@
+* {
+    font: 18px "VazirFD";
+}
+
+.gradient-box-1 {
+    background: #f46b45;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-shadow: 2px 2px 4px rgba(26, 29, 32, 0.33);
+    box-shadow: 1px 3px 6px rgba(26, 29, 32, 0.32);
+    color : white;
+}
+
+.section-title {
+    padding: 10px;
+    margin: auto;
+    border-radius: 10rem 0 10rem 0;
+    border: 2px solid rgb(13, 202, 240);
+    background-color: rgba(13, 202, 240, 0.18);
+}
+
+.single-product {
+    border-top: 2px solid rgba(211, 211, 211, 0.55);
+    border-bottom: 2px solid rgba(211, 211, 211, 0.55);
+}
+
+.instock {
+    background-color: rgb(201, 255, 201);
+}
+.outofstock {
+    background-color: rgb(255, 204, 204);
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+@media (min-width: 992px) {
+    .active {
+        background: rgba(66, 168, 255, 0.25);
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 768px) {
+    .single-product {
+        border: none;
+    }
+}
+
