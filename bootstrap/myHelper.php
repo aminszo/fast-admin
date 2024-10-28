@@ -141,19 +141,19 @@ function delete_cache_api ($id_bag, $all=false) {
     if ($all == true) {
         $params = array
         (
-            'secret' => "magic_4509@698",
+            'secret' => "magicsecret",
             'clear_all' => "true"
         );
     } elseif (!is_array($id_bag)) {
         $params = array
         (
-            'secret' => "magic_4509@698",
+            'secret' => "magicsecret",
             'single_id' => $id_bag,
         );
     } else {
         $params = array
         (
-            'secret' => "magic_4509@698",
+            'secret' => "magicsecret",
             'id_bag' => serialize($id_bag),
         );
     }

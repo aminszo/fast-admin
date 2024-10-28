@@ -9,8 +9,8 @@ namespace App\Helpers;
 class smsHelper
 {
 
-    public static $username = "09125520987";
-    public static $password = "SSj_552@0987";
+    public static $username = "";
+    public static $password = "";
 
     public static function send_sms_with_text($data)
     {
